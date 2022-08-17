@@ -3,7 +3,7 @@
 </p>
 
 <p align="center"> 
-    <img src="https://drive.google.com/file/d/1VwBn8-Y0XtnZ2YvdoLWI0-bd3mSDpWEb/view?usp=sharing" width="200">
+    <img src="https://www.regovtech.com/wp-content/uploads/2021/04/REGOV-Logo_Semi-White-200.png" width="200">
 </p>
 
 
