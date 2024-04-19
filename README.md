@@ -9,7 +9,7 @@ Hey! We are excited that you are interested in joining the team at Regov Technol
 
 We feel that the best place to really show us your skills is somewhere you feel comfortable. This test should not take you a long amount of time to complete.
 
-This take home test is used to determine how you go about solving problems logically. You are free to implement in whatever language you are comfortable in. This challenge contains two questions out of which you are only required to attempt one. However, being able to do both is an added advantage :)
+This take home test is used to determine how you go about solving problems logically. Complete both questions.
 
 ## Coding Challenge ()
 
@@ -18,7 +18,7 @@ This take home test is used to determine how you go about solving problems logic
 Design a mobile application or WebApp that has two three features: User Registration, Sign-On screen/module, and User Profile interface. The app should have the following features : User registration, Login & Logout, user profile, and a section to write about me. A user should be able to update their about me section, save it as either draft or submit their text.
 
 Requirements: 
-- Frontend Application / UI only (ReactNative, React JS, Vue JS, or Angular JS)
+- Frontend Application / UI only (ReactNative, React JS or Vue JS)
 - Dummy interface - zero connection with the backend
 
 ### Question 2. 
