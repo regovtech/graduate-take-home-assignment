@@ -22,20 +22,26 @@ This project is a website for managing user profiles, built using Vue.js for the
 1. **Clone the Repository**
 
 git clone <repository-url>
+
 cd <project-folder>
+
 
 2. **Install Dependencies**
 
 npm install
+
 composer install
+
 
 3. **Configure Environment Variables**
 - Set up `.env` file for Laravel configurations.
 - Configure frontend API endpoints in Vue.js.
+  
 
 4. **Run the Application**
 
 npm run dev // Compiles and hot-reloads for development
+
 php artisan serve // Runs Laravel development server
 
 
