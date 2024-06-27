@@ -14,7 +14,7 @@ This project is a web application built using Laravel for the backend API and Vu
 
 ### Frontend (Vue.js):
 
-- **Components:** Includes components for login (Login.vue), registration (Register.vue), user profile (User.vue), and example component (ExampleComponent.vue).
+- **Components:** Includes components for login (Login.vue), registration (Register.vue), user profile (User.vue), and error page (Error.vue).
 - **Routing:** Configured with Vue Router (router/index.js) to navigate between different views.
 - **API Integration:** Uses Axios for making HTTP requests to Laravel API endpoints for login, registration, and profile management.
 - **Form Handling:** Implements form validation and error handling for user inputs.
