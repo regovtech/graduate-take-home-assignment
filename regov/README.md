@@ -1,75 +1,66 @@
-# Website Project README
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-This project is a web application built using Laravel for the backend API and Vue.js for the frontend. It includes user authentication, registration, profile management, and basic error handling. Below is a brief overview of the project structure, functionality, and setup instructions.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## Project Structure
+## About Laravel
 
-### Backend (Laravel):
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- **Controllers:** Handles API endpoints for user authentication (AuthController), user registration (AuthController@register), profile updates (AuthController@update), and logout (AuthController@logout).
-- **Models:** Defines the User model with attributes like name, email, and securely hashed password.
-- **Routes:** Defines API routes for authentication, registration, and profile management.
-- **Middleware:** Provides middleware for handling authentication (auth) and guest access (guest).
-- **Database Migration:** Includes migration for creating the users table with name, email, and password fields.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-### Frontend (Vue.js):
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-- **Components:** Includes components for login (Login.vue), registration (Register.vue), user profile (User.vue), and error page (Error.vue).
-- **Routing:** Configured with Vue Router (router/index.js) to navigate between different views.
-- **API Integration:** Uses Axios for making HTTP requests to Laravel API endpoints for login, registration, and profile management.
-- **Form Handling:** Implements form validation and error handling for user inputs.
-- **Session Management:** Uses sessionStorage for storing user data after successful login.
+## Learning Laravel
 
-## Functionality
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-### User Authentication:
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-- Allows users to register with a unique email address and a secure password (validated with minimum length).
-- Provides login functionality with email and password validation.
-- Implements session management to keep users logged in between page refreshes.
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-### Profile Management:
+## Laravel Sponsors
 
-- Enables users to update their profile information (name, email, about me) securely.
-- Implements draft saving locally to sessionStorage for user profiles to prevent data loss.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Error Handling:
+### Premium Partners
 
-- Displays appropriate error messages for invalid login attempts, existing email during registration, and general API errors.
-- Provides a 404 Not Found page for handling non-existent routes.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
+- **[OP.GG](https://op.gg)**
 
-## Security Measures
+## Contributing
 
-### Password Security:
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-- Ensures passwords are securely hashed using Laravel's `Hash::make()` function before storing in the database.
-- Validates password strength with a minimum length requirement (3 characters)(Security Measures reduce due to making registration easier).
+## Code of Conduct
 
-## Installation and Setup
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-1. Clone the repository.
-2. Install dependencies:
+## Security Vulnerabilities
 
-composer install
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-npm install
+## License
 
-3. Configure environment variables in `.env` file for database connection and other settings.
-4. Run migrations:
-
-php artisan migrate
-
-5. Compile frontend assets:
-
-npm run dev
-
-6. Serve the application:
-
-php artisan serve
-
-
-## Notes
-
-- This project demonstrates a basic implementation of user authentication and profile management.
-- Additional features and security enhancements can be implemented based on specific requirements and best practices.
-
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
